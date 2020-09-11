@@ -37,7 +37,7 @@ pipeline {
 					{
 					    sh """
 					    echo $HOSTNAME
-					    ssh pranav@34.69.227.22 << EOF
+					    ssh pranav@35.192.25.247 << EOF
 					    sh scripts/deployment.sh ${env.dockerhubUser} ${env.dockerubPassword} pk0752/space-management-system:latest
 					    exit
 					    EOF"""
