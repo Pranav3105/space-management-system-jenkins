@@ -5,7 +5,7 @@
 ## APIs : 
 URL: http://localhost:8081/roommanagement/room , method = POST
 ```
-Sample Request:
+Sample Requests:
 {
 	"roomNumber":"Bahada",
 	"building":{
